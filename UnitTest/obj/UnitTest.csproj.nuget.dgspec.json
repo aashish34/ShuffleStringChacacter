@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\UnitTest\\UnitTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\RandomStringGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\RandomStringGenerator.csproj",
+        "projectName": "RandomStringGenerator",
+        "projectPath": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\RandomStringGenerator.csproj",
+        "packagesPath": "C:\\Users\\ladaas01\\.nuget\\packages\\",
+        "outputPath": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ladaas01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\UnitTest\\UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\ladaas01\\.nuget\\packages\\",
+        "outputPath": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ladaas01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\RandomStringGenerator.csproj": {
+                "projectPath": "D:\\Aashish\\Prep\\USB\\RandomStringGenerator\\RandomStringGenerator\\RandomStringGenerator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
