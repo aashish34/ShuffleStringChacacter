@@ -52,7 +52,7 @@ Console ->> Shuffle String: Ranomized string using three solution
 ```
 ## Algorithm - Solution 1 - Simple one liner
 
-# Explantion
+### Explantion
 
 Simple one liner Linq solution but  it will be slow with bigger list.
 It uses slightly less code, that though comes as the expense of having less range - because it uses hex instead of base64 
@@ -64,7 +64,7 @@ Here OrderBy uses a QuickSort variant to sort the items by their (ostensibly ran
 
 ## Algorithm - Solution 2 - Using random solution
 
-# Explantion
+### Explantion
 
 System.Random is not thread-safe. So if you use this code in a heavily concurrent system, it's possible for two requests to get the same value.
 So it unsuitable for anything security related, such as creating passwords or tokens.
@@ -75,7 +75,7 @@ We can use this solution; it will be useful for gaming or internal validation et
 
 ## Algorithm - Solution 3 - Thread safe Fisher yates solution ( The best solution)
 
-# Explantion
+### Explantion
  
 This is the best solution. It is implemented with Fisher-Yates algoritham and it is the fasted one. It has a time complexity of O(N). 
 It is implemnted with thread safe consideration. So any of the system use this code heavily with concurrent application even thought it will not generate duplicate values.
